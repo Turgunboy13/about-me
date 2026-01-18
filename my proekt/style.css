@@ -1,0 +1,239 @@
+@media screen and (min-width: 375px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180deg, #297FE8 0%, #000113 100%);
+        position: relative;
+    }
+
+    .kirish {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 336px;
+        background: linear-gradient(180deg, #2f3d59 0%, #0b1326 100%);
+        border-radius: 32px;
+        height: 354px;
+    }
+
+    .profileImg {
+        /* border: 10px solid #297FE8; */
+        border-radius: 50px;
+        transform: translateY(80px);
+        width: 200px;
+        height: 200px;
+        border: 10px solid #1e78e7e3;
+    }
+
+    .ism {
+        color: white;
+        font-weight: 550;
+        margin-top: 38px;
+    }
+
+    .maqsam {
+        color: #ffffffb2;
+        line-height: 0;
+        margin-top: 7px;
+    }
+
+    .uch {
+        color: white;
+        font-weight: 400;
+        margin-top: 27px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .ikki {
+        display: flex;
+        gap: 10px;
+        color: white;
+        font-size: 13px;
+        padding-top: 27px;
+        font-weight: 400;
+    }
+
+    .dot,
+    .cake {
+        padding-right: 3px;
+    }
+
+    .two {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        margin-top: 16px;
+    }
+
+    .three {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        margin-top: 11px;
+    }
+
+    .email {
+        width: 166px;
+        color: white;
+        padding: 10px 15px;
+        background: #143061;
+        border-radius: 15px;
+    }
+
+    .facebook {
+        width: 84px;
+        color: white;
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #35a5ee 0%, #1264d6 100%);
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border-radius: 15px;
+    }
+
+    .twitter {
+        width: 84px;
+        color: white;
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #4ebcff 0%, #1199ed 100%);
+        box-shadow: 0px 4px 4px 0px #00000040;
+        border-radius: 15px;
+    }
+
+    .github {
+        width: 291px;
+        color: white;
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #25262f 0%, #0c0d16 100%);
+        border-radius: 15px;
+        margin-top: 11px;
+    }
+
+    .instagram {
+        width: 291px;
+        color: white;
+        padding: 10px 15px;
+        background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+        border-radius: 15px;
+        margin-top: 11px;
+    }
+
+    .figma {
+        width: 165px;
+        color: white;
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #313030 0%, #121313 100%);
+        border-radius: 15px;
+        height: 195px;
+
+    }
+
+    .dev {
+        width: 84px;
+        color: black;
+        padding: 10px 15px;
+        background: linear-gradient(180deg, #fbfbfc 0%, #dbdbdb 100%);
+        border-radius: 15px;
+    }
+
+    .tepa {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .square {
+        padding-bottom: 5px;
+    }
+
+    .mail {
+        font-weight: 500;
+        padding-top: 12px;
+    }
+
+    .mail3 {
+        font-weight: 500;
+    }
+
+    .mail2 {
+        font-size: 10px;
+        font-weight: 500;
+        padding-top: 12px;
+        width: 100px;
+    }
+
+
+
+    .gmail {
+        font-size: 10px;
+    }
+
+    .dva {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .envelope1 {
+        font-size: 40px;
+
+    }
+
+    .envelope {
+        width: 40px;
+    }
+
+    .rasm3 {
+        display: flex;
+        gap: 12px;
+        margin-top: 42px;
+    }
+
+    .rasm31 {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        margin-bottom: 85px;
+    }
+
+    .fc {
+        width: 60px;
+    }
+
+    .fa-arrow-up-right-from-square {
+        transform: translateY(-5px);
+    }
+
+    .ss {
+        transform: translateY(-50px);
+
+    }
+
+    .gth {
+        transform: translateY(-20px);
+
+    }
+
+    .inst {
+        transform: translateY(-20px);
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
